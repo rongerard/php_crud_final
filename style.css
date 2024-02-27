@@ -1,0 +1,105 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    border-bottom: 1px solid #ccc;
+}
+
+/* buttons */
+
+
+
+.add_button {
+    padding: 5px;
+    color: white;
+    background-color: green;
+    outline: none;
+    border: 0;
+    outline: 0;
+}
+
+.action_button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.update_button {
+    padding: 5px;
+    background-color: yellow;
+    outline: none;
+    border: 0;
+    outline: 0;
+    margin-left: 10px
+}
+
+.delete_button {
+    padding: 5px;
+    background-color: red;
+    outline: none;
+    border: 0;
+    outline: 0;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* Define zebra striping for the table rows */
+.song-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* Light gray background for odd rows */
+
+}
+
+/* Define zebra striping for the table rows */
+.song-table tr:nth-child(even) {
+    /* Light gray background for odd rows */
+    background-color: #ffffff;
+}
+
+
+.song-table th {
+    text-align: left;
+    /* Align text to the left */
+    padding: 15px;
+    /* Padding for table headers */
+}
+
+
+
+/* Style the table cells */
+.song-table td {
+    padding: 15px;
+    /* Padding for table cells */
+}
+
+/* Style the table */
+.song-table {
+    width: 100%;
+    /* Make the table span the full width of its container */
+    border-collapse: collapse;
+    /* Collapse borders between table cells */
+}
+
+
+
+
+
+/* Define hover effect for table rows */
+.song-table tr:hover {
+    background-color: #ddd;
+    /* Light gray background on hover */
+}
